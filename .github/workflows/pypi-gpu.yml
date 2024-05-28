@@ -1,0 +1,111 @@
+name: Build and Publish Python GPU Bindings (linux only)
+
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "The tag to release"
+        required: true
+  push:
+    tags:
+      - "*"
+
+defaults:
+  run:
+    working-directory: .
+
+jobs:
+
+  linux:
+    runs-on: GPU
+    strategy:
+      matrix:
+        target: [x86_64]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.12
+          architecture: x64
+
+      - name: Set pyproject.toml version to match github tag
+        shell: bash
+        run: |
+            mv pyproject.toml pyproject.toml.orig
+            sed "s/ezkl/ezkl-gpu/" pyproject.toml.orig >pyproject.toml
+
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly-2023-06-27
+          override: true
+          components: rustfmt, clippy
+
+      - name: Set Cargo.toml version to match github tag
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          mv Cargo.toml Cargo.toml.orig
+          sed "s/0\\.0\\.0/${RELEASE_TAG//v}/" Cargo.toml.orig >Cargo.toml
+          mv Cargo.lock Cargo.lock.orig
+          sed "s/0\\.0\\.0/${RELEASE_TAG//v}/" Cargo.lock.orig >Cargo.lock
+
+      - name: Install required libraries
+        shell: bash
+        run: |
+          sudo apt-get update && sudo apt-get install -y openssl pkg-config libssl-dev
+
+      - name: Build wheels
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          manylinux: auto
+          container: off
+          args: --release --out dist --features python-bindings,icicle
+
+      - name: Install built wheel
+        if: matrix.target == 'x86_64'
+        run: |
+          pip install ezkl-gpu --no-index --find-links dist --force-reinstall
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+
+  pypi-publish:
+    name: Uploads release to PyPI
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+    if: "startsWith(github.ref, 'refs/tags/')"
+    # TODO: Uncomment if linux-cross is working
+    # needs: [ macos, windows, linux, linux-cross, musllinux, musllinux-cross ]
+    needs: [linux]
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: wheels
+      - name: List Files
+        run: ls -R
+
+      # Both publish steps will fail if there is no trusted publisher setup
+      # On failure the publish step will then simply continue to the next one
+
+      # publishes to PyPI
+      - name: Publish package distributions to PyPI
+        continue-on-error: true
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: ./
+
+      # publishes to TestPyPI
+      - name: Publish package distribution to TestPyPI
+        continue-on-error: true
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+          packages-dir: ./

@@ -1,0 +1,32 @@
+[2024-05-28T23:07:02.899039 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:03.171063 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:03.187586 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:04.902345 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:04.921161 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:07:04.929867 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:07:04.929888 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:07:05.846115 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:07:05.846145 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:07:05.878641 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:07:06.843642 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:06.876304 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:06.924125 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:06.938263 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:07:06.948328 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:07:06.948393 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:07:08.353835 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:07:08.353893 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:07:08.381952 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:07:08.974425 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:09.019104 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:17.395656 INFO  ezkl::pfsys] proof took 14.224
+[2024-05-28T23:07:17.396075 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 14.496866875s ✅
+[2024-05-28T23:07:24.218614 INFO  ezkl::pfsys] proof took 17.373
+[2024-05-28T23:07:24.218743 INFO  ezkl_worker] EZKL proof success, verified_models: 2  elapsed time: 19.316239125s ✅
+[2024-05-28T23:07:25.108068 INFO  ezkl::pfsys] proof took 16.133
+[2024-05-28T23:07:25.108130 INFO  ezkl_worker] EZKL proof success, verified_models: 3  elapsed time: 18.183859333s ✅
+[2024-05-28T23:07:40.731880 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:40.996950 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:41.016335 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:50.542633 INFO  ezkl::pfsys] proof took 9.544
+[2024-05-28T23:07:50.542852 INFO  ezkl_worker] EZKL proof success, verified_models: 3  elapsed time: 9.810756833s ✅

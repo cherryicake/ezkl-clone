@@ -1,0 +1,237 @@
+[2024-05-28T22:29:07.809596 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T22:29:07.817808 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T22:29:07.817837 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T22:29:08.271430 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T22:29:08.271470 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T22:29:08.286245 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T22:29:08.286961 INFO  actix_server::builder] starting 24 workers
+[2024-05-28T22:29:08.286991 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T22:36:32.313139 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T22:36:32.314175 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314227 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T22:36:32.314279 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314330 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314372 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314705 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314850 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314903 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314953 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.314998 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315053 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315089 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315120 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315150 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315190 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315230 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315278 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315371 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315412 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315461 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315506 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315614 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315697 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315749 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:36:32.315803 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:37:26.445538 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T22:37:26.453549 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T22:37:26.453583 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T22:37:26.892935 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T22:37:26.892976 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Documents/workspace/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T22:37:26.903034 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T22:37:26.903757 INFO  actix_server::builder] starting 24 workers
+[2024-05-28T22:37:26.903790 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T22:38:34.185702 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:38:34.592835 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:38:34.633790 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:38:41.888746 INFO  ezkl::pfsys] proof took 7.295
+[2024-05-28T22:38:41.888843 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 7.702711113s ✅
+[2024-05-28T22:39:10.139518 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:39:10.559779 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:39:10.577741 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:39:17.652666 INFO  ezkl::pfsys] proof took 7.92
+[2024-05-28T22:39:17.652753 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 7.51206475s ✅
+[2024-05-28T22:39:31.942399 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T22:39:31.942494 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T22:39:31.942567 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942624 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942675 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942737 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942765 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942799 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942845 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942907 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942949 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.942994 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943038 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943067 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943092 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943126 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943176 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943205 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943235 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943289 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943316 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943349 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943387 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943428 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943456 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:39:31.943519 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:56:50.277306 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T22:56:50.289024 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T22:56:50.289072 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T22:56:50.939658 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T22:56:50.939729 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T22:56:50.956594 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T22:56:50.956837 INFO  actix_server::builder] starting 8 workers
+[2024-05-28T22:56:50.956874 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T22:57:16.325730 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:57:16.861948 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:57:16.881627 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:57:26.247600 INFO  ezkl::pfsys] proof took 9.385
+[2024-05-28T22:57:26.248056 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.919095333s ✅
+[2024-05-28T22:57:49.212495 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:57:49.489893 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:57:49.513518 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:57:58.786049 INFO  ezkl::pfsys] proof took 9.296
+[2024-05-28T22:57:58.787083 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.573680708s ✅
+[2024-05-28T22:58:57.612935 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T22:58:57.614751 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T22:58:57.614856 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615007 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615042 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615102 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615194 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615260 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615324 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:58:57.615386 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T22:59:05.508246 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T22:59:05.517181 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T22:59:05.517228 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T22:59:06.067844 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T22:59:06.067926 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T22:59:06.101981 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T22:59:06.102378 INFO  actix_server::builder] starting 8 workers
+[2024-05-28T22:59:06.102431 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T22:59:11.652618 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:59:11.957090 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:59:12.005123 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:59:20.682839 INFO  ezkl::pfsys] proof took 8.725
+[2024-05-28T22:59:20.683871 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.030729958s ✅
+[2024-05-28T22:59:30.012712 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T22:59:30.340387 INFO  ezkl::pfsys] proof started...
+[2024-05-28T22:59:30.358447 INFO  ezkl::graph::model] model layout...
+[2024-05-28T22:59:39.246278 INFO  ezkl::pfsys] proof took 8.905
+[2024-05-28T22:59:39.247323 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.233282083s ✅
+[2024-05-28T23:01:18.609826 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:01:18.913797 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:01:18.934635 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:01:28.504423 INFO  ezkl::pfsys] proof took 9.590
+[2024-05-28T23:01:28.505288 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.894095666s ✅
+[2024-05-28T23:02:00.410416 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T23:02:00.412161 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T23:02:00.412399 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.412593 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.412675 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.412752 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.412808 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.412974 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.413091 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:02:00.413228 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:03:32.161209 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:03:32.175058 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:03:32.175101 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:03:32.677380 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:03:32.677453 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:03:32.692827 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:03:32.693686 INFO  actix_server::builder] starting 8 workers
+[2024-05-28T23:03:32.693743 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T23:03:44.518396 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:03:44.656916 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:03:44.676561 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:03:53.506127 INFO  ezkl::pfsys] proof took 8.849
+[2024-05-28T23:03:53.507260 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 8.987353166s ✅
+[2024-05-28T23:03:58.536995 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:03:58.680728 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:03:58.698992 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:04:07.247372 INFO  ezkl::pfsys] proof took 8.566
+[2024-05-28T23:04:07.248382 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 8.711008834s ✅
+[2024-05-28T23:04:12.899974 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:04:13.049360 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:04:13.067193 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:04:21.603727 INFO  ezkl::pfsys] proof took 8.554
+[2024-05-28T23:04:21.604194 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 8.703716459s ✅
+[2024-05-28T23:04:39.739430 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T23:04:39.740963 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741047 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741131 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741278 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741421 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741533 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741625 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741725 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:04:39.741810 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T23:06:06.152044 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:06:06.163798 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:06:06.163836 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:06:06.659673 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:06:06.659750 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:06:06.674557 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:06:06.674816 INFO  actix_server::builder] starting 8 workers
+[2024-05-28T23:06:06.674856 INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-05-28T23:06:10.340612 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:06:10.899495 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:06:10.918540 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:06:19.644832 INFO  ezkl::pfsys] proof took 8.744
+[2024-05-28T23:06:19.645337 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.303365042s ✅
+[2024-05-28T23:06:24.310220 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:06:24.567743 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:06:24.584801 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:06:33.298365 INFO  ezkl::pfsys] proof took 8.730
+[2024-05-28T23:06:33.298488 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 8.987909334s ✅
+[2024-05-28T23:06:47.118451 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:06:47.383455 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:06:47.508963 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:06:56.242521 INFO  ezkl::pfsys] proof took 8.858
+[2024-05-28T23:06:56.242848 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 9.123322083s ✅
+[2024-05-28T23:07:02.897107 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:03.171023 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:03.187557 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:04.902143 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:04.921122 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:07:04.929849 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:07:04.929883 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:07:05.846086 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:07:05.846139 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:07:05.878595 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:07:06.843568 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:06.876264 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:06.923995 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:06.938233 INFO  ezkl::pfsys] loading verification key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/vk.key"
+[2024-05-28T23:07:06.948281 INFO  ezkl::pfsys] done loading verification key ✅
+[2024-05-28T23:07:06.948365 INFO  ezkl::pfsys] loading proving key from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/pk.key"
+[2024-05-28T23:07:08.353639 INFO  ezkl::pfsys] done loading proving key ✅
+[2024-05-28T23:07:08.353884 INFO  ezkl::pfsys::srs] loading srs from "/Users/zhousong/Downloads/ezkl/deployment_layer/model_0/kzg.srs"
+[2024-05-28T23:07:08.381923 INFO  ezkl::execute] downsizing params to 17 logrows
+[2024-05-28T23:07:08.974398 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:09.019074 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:17.395296 INFO  ezkl::pfsys] proof took 14.224
+[2024-05-28T23:07:17.396064 INFO  ezkl_worker] EZKL proof success, verified_models: 1  elapsed time: 14.496866875s ✅
+[2024-05-28T23:07:24.217780 INFO  ezkl::pfsys] proof took 17.373
+[2024-05-28T23:07:24.218732 INFO  ezkl_worker] EZKL proof success, verified_models: 2  elapsed time: 19.316239125s ✅
+[2024-05-28T23:07:25.108026 INFO  ezkl::pfsys] proof took 16.133
+[2024-05-28T23:07:25.108123 INFO  ezkl_worker] EZKL proof success, verified_models: 3  elapsed time: 18.183859333s ✅
+[2024-05-28T23:07:40.731608 INFO  ezkl_worker] Generating input file: ProveQuery { model: [0], inputs: [-0.3367333979146827, 0.6298721362647295, -0.07219390757178101, -0.06458135109190843, -0.7423325926995081] }
+[2024-05-28T23:07:40.996914 INFO  ezkl::pfsys] proof started...
+[2024-05-28T23:07:41.016310 INFO  ezkl::graph::model] model layout...
+[2024-05-28T23:07:50.541563 INFO  ezkl::pfsys] proof took 9.544
+[2024-05-28T23:07:50.542842 INFO  ezkl_worker] EZKL proof success, verified_models: 3  elapsed time: 9.810756833s ✅
+[2024-05-28T23:09:11.867972 INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-05-28T23:09:11.869551 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869593 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869645 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869769 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869849 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869918 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.869956 INFO  actix_server::accept] accept thread stopped
+[2024-05-28T23:09:11.870056 INFO  actix_server::worker] shutting down idle worker
+[2024-05-28T23:09:11.870095 INFO  actix_server::worker] shutting down idle worker
