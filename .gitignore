@@ -16,7 +16,6 @@ pkg
 *.key
 *.params
 *.bytecode
-*.bin
 *~
 \#*\#
 .DS_Store
@@ -27,7 +26,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.py[cod]
-bin/
 build/
 develop-eggs/
 dist/
